@@ -80,8 +80,8 @@ clf.fit(X_train,y_train)
 y_pred=clf.predict(X_test)
 
 acc=accuracy_score(y_pred,y_test)
-st.write(f"Classifier = {classifier_name}")
-st.write(f"Accuracy = {np.round(acc*100,2)}%")
+st.write("Classifier = ",classifier_name)
+st.write("Accuracy = ",np.round(acc*100,2),"%")
 
 pca=PCA(2)
 X_projected=pca.fit_transform(X)

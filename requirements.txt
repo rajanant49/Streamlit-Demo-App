@@ -1,0 +1,6 @@
+streamlit==0.55.2
+matplotlib==2.2.5
+opencv_python==3.4.2.16
+numpy==1.16.5
+Pillow==8.1.0
+scikit_learn==0.24.0
